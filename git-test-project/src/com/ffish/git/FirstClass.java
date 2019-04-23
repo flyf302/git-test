@@ -8,9 +8,11 @@ package com.ffish.git;
 public class FirstClass {
     public static void main(String[] args) {
         System.out.println("Hello Git Project");
+        System.out.println("test add");
     }
     
     public void test(){
-        System.out.println("test");
+        String name = "ffish";
+        System.out.println("test"+name);
     }
 }
